@@ -1,0 +1,153 @@
+<html lang="pt-br"><head>
+    <title> Port Flow </title>
+    <meta chage="UTF-8">
+    <style type="text/css">
+  *{
+        margin: 0;
+        padding: 0;
+      }
+      
+      main section div img {
+        height: 274px;
+        width: 274px;
+        margin: 1vw
+      }
+      
+      main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 80px;
+      }
+           
+      .texto_no_limao{
+        margin: 0vw;
+        height: 90vh;
+        width: 100vw;
+        font-family: 'Arial', sans-serif;
+        color: #fff;
+        background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=90838487-a7fa-4a2c-8cf4-a4748238ac5c&api_key=CometServer1&access_token=1638165661_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_d2faf26bd403d51d4c99779506b122444d105f1a");
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: column;
+        flex-direction: right;
+        align-items: center;
+        flex-grow: 1;
+      }
+      
+      .texto{
+        font-weight: bolder;
+        font-size: 4em;
+        width: 15em;
+      }
+      
+      .text{
+        font-weight: lighter;
+        font-size: 2em;
+        
+      }
+      
+      section{
+        margin-top: 3vw;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        flex-direction: center;
+        flex-wrap: wrap;
+      }
+     header{
+        height: 7vw;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+      }
+      h1{
+        font-size: 2vw;
+        font-family: "Montserrat", Bold, sans-serif;       
+      }
+      
+      ul{
+        width: 30vw;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+      }
+      
+      nav{
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      li{
+        font-size: 110% ;
+        font-family: "Montserrat", light, sans-serif;
+      }
+       
+      main section div {
+        display: flex;
+      }
+      
+      a{
+        text-decoration: none;
+        color: black;
+      }
+  </style>
+  </head>
+  <body> 
+    <header> 
+      <nav>
+        <h1> PortFlow </h1>
+        <ul>
+          <li> <a href="#" target="blanck"> Home </a></li>
+          <li> <a href="#" target="blanck"> Blog </a> </li>
+          <li> <a href="#" target="blanck"> Valores </a> </li>
+          <li> <a href="#" target="blanck"> Portfólio </a> </li>
+          <li> <a href="#" target="blanck"> Contato </a> </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    
+     <div class="texto_no_limao">
+        <p class="texto"> Imagine, Discuta, Desenhe. </p>
+        <p class="text"> Fale Conosco </p> 
+      </div>
+      <section>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=19c89313-5c10-4b02-8025-bdc3b441a985&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="erva_mate">
+        </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=f916152c-556a-4192-befa-98ace09876a9&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="mini">
+        </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=4c58fbe6-6fe1-4b45-80c9-95d32b5f2a68&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="lanche">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=7b5bfb9b-e543-4110-b33e-1be24e48e5ce&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="tela">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=adfbfb3d-2d19-4ee2-864a-1fab47fbd04d&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="display">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=81ee2a50-f13b-4a78-b195-b6379957813c&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="caneca">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=4b059ab3-a955-4d81-9348-18126b8375eb&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="pc">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=3a51ffd3-b617-494d-afec-1147303b545b&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="cereal">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=b55661a9-9615-4c4a-927d-7897479d8003&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="cell">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=e0284c42-50bd-4773-8ce2-784da593cf7e&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="cafe">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=9de62b04-447e-4b45-a00e-2263e8a5028a&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="camera">
+         </div>
+        <div> <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=313c479a-1f4b-4921-b2eb-4de52f4692c2&amp;api_key=CometServer1&amp;access_token=1638141736_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_9dc52987b899e9eec88224320af9a8ef74b9cb17" alt="fotografia">
+         </div>        
+      </section>
+    </main>
+    <footer> </footer>
+  
+</body></html>
