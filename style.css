@@ -3,37 +3,10 @@
         padding: 0;
       }
       
-      header{
-        height: 25vh;
-        width: 100vw;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        position: fixed;
-      }
-      h1{
-        font-size: 20px;
-        font-family: "Montserrat", Bold, sans-serif;       
-      }
-      
-      ul{
-        width: 30%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        list-style-type: none;
-      }
-      
-      nav{
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      
-      li{
-        font-size: 15px ;
-        font-family: "Montserrat", light, sans-serif;
+      main section div img {
+        height: 274px;
+        width: 274px;
+        margin: 1vw
       }
       
       main{
@@ -41,20 +14,23 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-top: 80px;
       }
-     .limao{
-        margin: 0vw;
-        height: 40vw;
-        width: 100vw;
-        position: relative;
-      }
-      
+           
       .texto_no_limao{
-        position: absolute;
-        top: 25em;
-        right: 15em;
+        margin: 0vw;
+        height: 90vh;
+        width: 100vw;
         font-family: 'Arial', sans-serif;
         color: #fff;
+        background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=90838487-a7fa-4a2c-8cf4-a4748238ac5c&api_key=CometServer1&access_token=1638165661_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_d2faf26bd403d51d4c99779506b122444d105f1a");
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: column;
+        flex-direction: right;
+        align-items: center;
+        flex-grow: 1;
       }
       
       .texto{
@@ -68,11 +44,55 @@
         font-size: 2em;
         
       }
+      
       section{
-        height: 105em;
-        width: 80em;
+        margin-top: 3vw;
+        width: 90%;
         display: flex;
-        justify-content: space-around;
-        align-items: space-around;
+        justify-content: center;
+        align-items: space-between;
+        flex-direction: center;
         flex-wrap: wrap;
+      }
+     header{
+        height: 7vw;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+      }
+      h1{
+        font-size: 2vw;
+        font-family: "Montserrat", Bold, sans-serif;       
+      }
+      
+      ul{
+        width: 30vw;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+      }
+      
+      nav{
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      li{
+        font-size: 110% ;
+        font-family: "Montserrat", light, sans-serif;
+      }
+       
+      main section div {
+        display: flex;
+      }
+      
+      a{
+        text-decoration: none;
+        color: black;
       }
