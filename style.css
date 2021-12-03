@@ -3,6 +3,8 @@
         padding: 0;
       }
       
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;800&display=swap');
+
       main section div img {
         height: 274px;
         width: 274px;
@@ -14,38 +16,43 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 7vh;
       }
            
-      .texto_no_limao{
+      .caixa_do_limao{
         margin: 0vw;
         height: 90vh;
-        width: 100vw;
-        font-family: 'Arial', sans-serif;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
-        background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:13ead2e1-3ac9-44a1-b4cb-14736da07bb0;revision=0?component_id=90838487-a7fa-4a2c-8cf4-a4748238ac5c&api_key=CometServer1&access_token=1638165661_urn%3Aaaid%3Asc%3AUS%3A13ead2e1-3ac9-44a1-b4cb-14736da07bb0%3Bpublic_d2faf26bd403d51d4c99779506b122444d105f1a");
+        background-image: url("web/laranja\ azul\ recorte.png");
         background-size: cover;
         background-position: right;
         display: flex;
         justify-content: column;
         flex-direction: right;
         align-items: center;
-        flex-grow: 1;
       }
       
       .texto{
         font-weight: bolder;
         font-size: 4em;
-        width: 15em;
+        width: 90vw;
+      }
+
+      .texto_no_limao{
+        margin-left: 5vw;
+        width: 80vw;
+        display: block;
       }
       
       .text{
         font-weight: lighter;
         font-size: 2em;
-        
+        margin-top: 3vw;
       }
-      
-      section{
+              
+      .img_main{
         margin-top: 3vw;
         width: 90%;
         display: flex;
@@ -63,29 +70,42 @@
         position: fixed;
       }
       h1{
-        font-size: 2vw;
-        font-family: "Montserrat", Bold, sans-serif;       
+        font-size: 200%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin: 10px;      
       }
       
       ul{
-        width: 30vw;
+        width: 100%;
         height: 40%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         list-style-type: none;
+        
       }
       
       nav{
-        width: 95vw;
+        width: 78em;
         display: flex;
         align-items: center;
         justify-content: space-between;
       }
       
+      nav div{
+        width: 30em;
+      }
+      li:hover{
+        font-weight: bolder;
+        font-size: larger;        
+      }
+
       li{
-        font-size: 110% ;
-        font-family: "Montserrat", light, sans-serif;
+        font-size: 120% ;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        margin: 10px;
       }
        
       main section div {
@@ -95,4 +115,44 @@
       a{
         text-decoration: none;
         color: black;
+      }
+
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d3d3d3;
+        height: 7vw;
+      }
+      .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+      }
+      .img_rodape{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .rodape{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Montserrat', sans-serif;
+        align-items: center;
+        width: 65%;
+        font-size: 1vw;
+      }
+      .copy{
+        font-weight: bolder;
+      }
+      .referencia p{
+        text-transform: capitalize;
+        font-weight: lighter;
+      }
+      .img_rodape img{
+        width: 2vw;
+        height: 2vw;
+        border-color: black;
+        margin: 1vw;
       }
