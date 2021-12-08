@@ -8,7 +8,7 @@
       main section div img {
         height: 274px;
         width: 274px;
-        margin: 1vw
+        margin: 2vw
       }
       
       main{
@@ -16,7 +16,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 7vh;
+        padding-top: 7vw;
       }
            
       .caixa_do_limao{
@@ -54,7 +54,7 @@
               
       .img_main{
         margin-top: 3vw;
-        width: 90%;
+        width: 98%;
         display: flex;
         justify-content: center;
         align-items: space-between;
@@ -93,7 +93,7 @@
         justify-content: space-between;
       }
       
-      nav div{
+      .opcoes{
         width: 30em;
       }
       li:hover{
@@ -111,7 +111,11 @@
       main section div {
         display: flex;
       }
-      
+      .navegue{
+        display: none;
+        width: 0;
+        height: 0;
+      }
       a{
         text-decoration: none;
         color: black;
@@ -143,6 +147,9 @@
         width: 65%;
         font-size: 1vw;
       }
+      button{
+        display: none;
+      }
       .copy{
         font-weight: bolder;
       }
@@ -155,4 +162,96 @@
         height: 2vw;
         border-color: black;
         margin: 1vw;
+      }
+     @media(max-width:645px) {
+        .opcoes {
+            display: none;
+            width: 0;
+        }
+        .navegue{
+          background-color: #363636;
+          width: 40%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .caixa_do_limao{
+          height: 95vh;
+          align-items: flex-end;
+          background-image: url("web/laranja\ azul\ recorte\ -\ Copia.png");
+        }
+        
+        
+        header{
+          /*height: 9vw;*/
+          justify-content: flex-start;
+          width: 100%;
+        }
+        nav{
+          width: 70vw
+        }
+        .footer{
+          width: 100%;
+          flex-wrap: wrap;
+          height: 5vw;
+          background-color: #1E90FF;
+        }
+        .img_rodape{
+          width: 55%;
+          margin-bottom: 5px;
+          margin-left: 25%;
+          margin-right: 0%;
+          border-width: 100vw;
+        }
+        .img_rodape img{
+          width: 3vw;
+          height: 3vw;
+        }
+        footer{
+          height: 15vw;
+          width: 100%;
+          border-color: none;     
+          justify-content: start;
+          background-color: #fff;
+        }
+        .rodape{
+          font-size: 8px;
+          width: 100%;
+          height: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-items: flex-start;
+          align-items: flex-start;
+          margin: 5px;
+        }
+        .referencia {
+         font-size: 6px;
+         display: flex;
+         justify-items: flex-start;
+         width: 100%;
+         margin: 5px;
+         position: fixed;
+        }
+        .linha{
+          height: 3px;
+          display: block;
+          margin-bottom: 5px;
+          background-color: #fff;
+        }
+        .botao{
+          height: 4vw;
+          width: 4vw;
+        }
+        button{
+          display:block;
+          position: relative;
+          margin-top: -5vw;
+          margin-left: 80vw;
+          background-color: #00008C;
+          color: #fff;
+          border-color: black;
+
+        }
       }
